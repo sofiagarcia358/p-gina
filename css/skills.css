@@ -1,6 +1,6 @@
 .btn-skills{
     background-color: rgb(88, 82, 82);
-    color: rgb(84,91,99);
+    color: rgb(240, 241, 243);
     width: 12rem;
     height: 3rem;
     border-radius: 2rem;
@@ -16,7 +16,7 @@
 .skills > p{
     font-size: 1.6rem;
     margin: 2rem 0px;
-    color: rgb(66,66,66);
+    color: rgb(130, 125, 125);
 }
 .list-skills{
     width: 100%;
