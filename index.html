@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--archivos de disenno-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" href="css/about_me.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/config.css">
+    <link rel="stylesheet" href="css/header.css">
+    <!--icono disenno-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,700,0,0" />
+<body>
+    <div class="pantalla">
+        <!--Header de la pagina-->
+        <header>
+            <h2>@Sofia</h2>
+            <span class="material-symbols-outlined">
+                menu
+                </span>
+        </header>
+        <!--Seccion del perfil-->
+        <div class="perfil">
+            <div class="img-perfil">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAPFBMVEXk5ueutLepsLPo6uursbXJzc/p6+zj5ea2u76orrKvtbi0ubzZ3N3O0dPAxcfg4uPMz9HU19i8wcPDx8qKXtGiAAAFTElEQVR4nO2d3XqzIAyAhUD916L3f6+f1m7tVvtNINFg8x5tZ32fQAIoMcsEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQTghAJD1jWtnXJPP/54IgNzZQulSmxvTH6oYXX4WS+ivhTbqBa1r26cvCdCu6i0YXbdZ0o4A1rzV+5IcE3YE+z58T45lqo7g1Aa/JY5tgoqQF3qb382x7lNzBLcxft+O17QUYfQI4IIeklKsPSN4i6LKj/7Zm8n99RbHJpEw9gEBXNBpKIYLJqKYRwjOikf//r+J8ZsVuacbqCMNleI9TqGLGqMzhnVdBOdd6F/RlrFijiCoVMk320CBIahUxTWI0KKEcJqKbMdpdJb5QvdHq6wCI5qhKlgGMS/RBHkubWDAE+QZxB4xhCyDiDkLZxgGEVdQldzSKbTIhmZkFkSEPcVvmBn2SMuZB9od7fQDsMiDdKJjFUSCQarM5WirZ3C2TT/htYnyPcPfgrFHWz0BI74gr6J/IZiGUxAZGQLqmvQLTrtE/Go4YxhVRIpEw+sww1IIcqr5NKmUUzLF3d4/qPkYIp2T/obPuemlojFUR4t9Q2Vojhb7BmgElWHzLPH8hucfpefPNFTVgs9h1AdU/Pin96vwWbWdf+X9Absn3OdO34aMdsDnP8WgKYisTqI6CkNGqZQo1XA6Ef6AU32SJzOcBukHPF07/xNSgmHKa5BOhtezv6mA/rYJpwXNAnbRZ1XuF3BzDcO3vpA3+ny2909gbqE4hhD3LIPhLLyBNhPZvbZ3B+3tPYa18A7auSlXQayKwTPNLKDcuOB0xPYKDPFTkWsevQPRZ1J8Hji9I1KQ34r7hZhrwNwOZ97QxNx0drwn4QI0wQk1DcEsfKCWKdxVvxPSNUIp/knmAXT+nT+Ko3+0H96rcNb3m1fx7MBTJdeBJ7uFcWsc0wvgAsC4pROW0l2inbAmIBv/7GZmuhQH6API2rr8T0e6yuZJ+80A9LZeG62T3tik31XwxtwZcizKuTHkMjB1WdZde4Kmic/A5ZI3rr1ae21d08PlVHYfAaxw9G9CYRbJ+8ZdbTcMRV1XM3VdF0M32vtoTdZ0+u29s0OttJ5bz64UwinjaFMVY9vkqc3KKSxN21Xl+0L4Q3Vuv1tYl0pqnX6ms4XetFz7gdZVAgUEoJntfOUe4ZwsHd9FzqQ3Vv6xe41l0XJcqcKl6TZvlv7ClAW3BsqQW4X7ypApB8dmTgK4IX5wvqIVj33HtD2qSG4BqznxdIefL27Y4sahi0MdIdvUsDva8agGGbCtITmCY31MHD2O0uIdh/0rJDQ1VX5Zdxz3rR2QDbv6qXl9vudzqQtGm1Jv9LDXOsfvvB7VcZ8PDKD0mQ1VHPYQ9O+Yj4hR1IUD8rBnn3ho2m8oQMxbCFiKlL2ioSW5heeJqegED52CzxCtcGD3Kv8Wms9EYLyUhwaFIhSMBClevWEmiK/Iaogu4H7sg6ppQhQG8RUqivuTGOAJOg6FfgW0q0M0PQMRMEgXaeNf3SYDZ8PIMI0+wHgr/MgN7wYwpiLjCCqM6ydUDZLQiB6nDdNC8SDyig3jPPpFXGcC9O8BUBDVmgBY59E7Md/35Loe/UVEECEJwYggJjELZ4J71SaQSBeC02n4Da29CayJNA28SAhd2CQyC1Xw6pSmGSINQVuMhAZp4DClan9MgmkDDNmezqwS8sgtlXK/EPBhoaSmYVC/F7IO1jQEdHOlabpKh3+jzLQSTUiq4X2I+Ip/zU8rlaqAvkS21ElR+gqu3zbjjL+hIAiCIAiCIAiCIAiCsCf/AKrfVhSbvA+DAAAAAElFTkSuQmCC" alt="" class="img-perfiles">
+            </div>
+            <div class="informacion">
+                <h1>Hi, im Sofia 👋</h1>
+                <p class="descripcion">
+                    Lorem ipsum dolor sit amet consectetur a
+                    dipisicing elit. Eum, architecto totam voluptatum suscipit
+                     itaque odit fugit soluta odio minima expedita laboriosam quod 
+                     ipsum sunt, iusto corporis. Molestiae eveniet eius quis.
+                </p>
+            </div>
+            <div class="estado"> 
+                <span class="material-symbols-outlined">
+                    location_on
+                    </span>
+                    Guatemala, mixco
+            </div>
+            <div class="redes">
+                <span class="material-symbols-outlined">
+                    desktop_windows
+                    </span>
+                    <span class="material-symbols-outlined">
+                        smart_display
+                        </span>
+                        <span class="material-symbols-outlined">
+                            tv_gen
+                            </span>
+            </div>
+        </div>
+        <!--Seccion about me-->
+        <section class="about_me">
+            <div class="btn_bout">About me</div>
+            <div class="div-img">
+                <img src="https://s3.envato.com/files/453653904/647dd98df8b2823bb0822232_withmeta.jpg" alt="">
+            </div>
+            <h2>Curios About Me?</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veniam quia voluptas nostrum, et deleniti accusantium quibusdam. Doloribus, accusantium deleniti animi ea exercitationem nesciunt praesentium eligendi laborum nostrum aut eveniet!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas earum iure cumque repudiandae totam in, officia culpa autem, ut aliquam pariatur esse ad atque laudantium temporibus. Id a dicta quam.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt molestiae iure recusandae dicta quia et quas provident nihil inventore fuga alias mollitia aliquam, ullam, sint veritatis rerum perspiciatis consequuntur.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis deleniti quod molestias id ab sapiente, impedit eaque alias cupiditate laudantium iusto, libero odit fugit corporis molestiae praesentium dolores maiores saepe?
+            </p>
+            <div class="lista">
+                <p>
+                    Finally, some quick bits about me.
+                </p>
+                <ul>
+                    <li>B.E in computer ENgineeriang</li>
+                    <li>Full time Freelancer</li>
+                    <li>Avid learner</li>
+                    <li>Aspiring indie hacker</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio iste sit ratione, reprehenderit debitis obcaecati cupiditate dolorum natus tenetur iusto commodi omnis alias nulla aliquid dolorem qui dignissimos, possimus ducimus!</p>
+            </div>
+        </section>
+         <!--Skills-->
+        <section class="skills">
+            <div class="btn-skills"></div>
+            <p>
+                The skills,tools and technologies
+                I am really good at:
+            </p>
+            <div class="todo">
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-javscript.svg" alt="">
+                    <p>Javascript</p>
+                </div>
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-typescript.svg" alt="">
+                    <p>Typescript</p>
+                </div>
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-react.svg" alt="">
+                    <p>React</p>
+                </div>
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-nextjs.svg" alt="">
+                    <p>Next.js</p>
+                </div>
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-nodejs.svg" alt="">
+                    <p>Node.js</p>
+                </div>
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-express.svg" alt="">
+                    <p>Express.js</p>
+                </div>
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-nest.svg" alt="">
+                    <p>Nest.js</p>
+                    </div>
+                <div class="list-slills">
+                     <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-socket.svg" alt="">
+                        <p>Socket.io</p>
+                     </div>
+                <div class="list-slills">
+                     <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-postgresql.svg" alt="">
+                        <p>PostgreSQL</p>
+                </div>
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-mongodb.svg" alt="">
+                    <p>MongoDB</p>
+                </div>
+                 <div class="list-slills">
+                     <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-sass.svg" alt="">
+                        <p>Sass/Scss</p>
+                </div>
+                <div class="list-slills">
+                     <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-tailwindcss.svg" alt="">
+                        <p>Tailwindcss</p>
+                 </div>
+                 <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-figma.svg" alt="">
+                    <p>Figma</p>
+                    </div>
+                    <div class="list-slills">
+                        <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-cypress.svg" alt="">
+                        <p>Cypress</p>
+                     </div>
+                    <div class="list-slills">
+                        <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-storybook.svg" alt="">
+                        <p>Storybook</p>
+                    </div>
+                    <div class="list-slills">
+                        <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-git.svg" alt="">
+                         <p>Git</p>
+                        </div>
+
+
+            </div>
+
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>

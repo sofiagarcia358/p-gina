@@ -1,0 +1,79 @@
+.btn_bout{
+    background-color: rgb(235, 235, 235);
+ color: rgb(84, 91, 99);
+ width: 12rem;
+ height: 3rem;
+ border-radius: 2rem;
+ margin: auto;
+ margin: 2rem auto 4rem auto;
+ font-size: 1.8rem;
+ font-weight: 400;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.div-img{
+    width: 40%;
+    height: 50rem;
+    background-color: gray;
+    margin: auto;
+    padding: 1.5rem;
+
+    position: relative;
+}
+.div-img img{
+    width: 95%;
+    height: 105%;
+    object-fit: cover;
+    object-position: center;
+    border: 0.5rem solid white;
+
+    position: absolute;
+    top:-3.5rem;
+    left: 1rem;
+}
+.about_me h2{
+    font-size: 2.5rem;
+    margin: 1rem 0px;
+    
+}
+.about_me p{
+    font-size: 1.6rem;
+    margin: 2rem 0px;
+    color: rgb(66,66,66);
+
+}
+.lista p{
+    font-size: 1.6rem;
+    margin: 2rem 0px;
+    color: rgb(66,66,66);
+    text-align: center;
+}
+.lista ul{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 2rem;
+    gap: 1rem;
+    font-size: 1.6rem;
+    margin: 2rem 0px;
+    color: rgb(66,66,66);  
+}
+@media screen and (min-width: 1220px){
+    .about_me {
+        width: 90%;
+        margin: auto;
+        margin-top: 20rem;
+    display: grid;
+    grid-template-columns: 55% 1fr;
+    }
+    .btn_bout{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .div-img{
+        grid-column: 1/2;
+        grid-row: 2/8;
+    }
+}
